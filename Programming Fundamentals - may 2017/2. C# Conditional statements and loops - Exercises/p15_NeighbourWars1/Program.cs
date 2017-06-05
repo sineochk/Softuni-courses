@@ -1,5 +1,6 @@
 ﻿using System;
 
+// change from testBranch
 namespace p15_NeighbourWars1
 {
     class Program
@@ -15,11 +16,11 @@ namespace p15_NeighbourWars1
                 pAttacks = round % 2 == 1;
                 if (pAttacks)
                 {
-                    //pesho attacks
+                    //pesho attacks gosho
                     gHp -= pDmg;
                 } else
                 {
-                    // gosho attacks
+                    // gosho attacks pesho
                     pHp -= gDmg;
                 }
                 if(gHp<=0 || pHp<=0)
