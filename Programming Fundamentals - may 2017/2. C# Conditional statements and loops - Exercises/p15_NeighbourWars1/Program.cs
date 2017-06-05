@@ -1,6 +1,6 @@
 ﻿using System;
 
-//don't change this line
+// change from master
 namespace p15_NeighbourWars1
 {
     class Program
